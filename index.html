@@ -1,0 +1,742 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>MosaIT — Installation Réseau & Infrastructure IT</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+            rel="stylesheet"
+        />
+        <link href="./style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <nav>
+            <a href="#" class="logo">MOSA<span>IT</span></a>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#process">Processus</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#cta" class="nav-cta">Contactez-nous</a></li>
+            </ul>
+        </nav>
+
+        <section id="hero">
+            <canvas id="network-canvas"></canvas>
+            <div class="hero-content">
+                <div class="tagline">
+                    <span>—</span> Réseau Haute Performance
+                </div>
+                <div class="eyebrow">
+                    Infrastructure IT · Réseau · Connectivité
+                </div>
+                <h1>
+                    Votre réseau,<br /><em>câblé</em> pour<br /><span
+                        class="accent-g"
+                        >l'avenir.</span
+                    >
+                </h1>
+                <p class="hero-sub">
+                    MosaIT conçoit, déploie et maintient des infrastructures
+                    réseau robustes et sécurisées pour les PME en Belgique.
+                </p>
+                <div class="hero-btns">
+                    <a href="#cta" class="btn-primary">Démarrer un projet →</a>
+                    <a href="#services" class="btn-ghost">Nos services</a>
+                </div>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-num">8<span>+</span></div>
+                    <div class="stat-label">Installations</div>
+                </div>
+            </div>
+        </section>
+
+        <div class="marquee-wrap">
+            <div class="marquee-track" id="marquee-track"></div>
+        </div>
+
+        <section id="services">
+            <div class="services-header reveal">
+                <div>
+                    <div class="section-label">Ce qu'on fait</div>
+                    <h2>Des solutions réseau sur mesure</h2>
+                </div>
+                <p class="section-intro">
+                    Une expertise de bout en bout pour garantir la fluidité et
+                    la protection de vos flux de données locaux et cloud.
+                </p>
+            </div>
+
+            <div class="services-grid reveal">
+                <div class="service-card">
+                    <h3>Câblage structuré</h3>
+                    <p>
+                        Installation de câblage RJ45 Cat6/Cat6A, fibre optique
+                        et baies de brassage dans les règles de l'art. Certifié
+                        et documenté.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <h3>Wi-Fi entreprise</h3>
+                    <p>
+                        Déploiement de bornes Wi-Fi 6/6E avec couverture
+                        optimisée, isolation des SSID et gestion centralisée.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <h3>Firewall & Sécurité</h3>
+                    <p>
+                        Configuration de firewalls, segmentation VLAN stricte,
+                        VPN site-à-site et passerelles de sécurité redondantes.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <h3>Audit & Diagnostic</h3>
+                    <p>
+                        Analyse de performance de votre infrastructure
+                        existante, détection des goulots d'étranglement et
+                        rapports d'optimisation.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <h3>Connectivité Cloud</h3>
+                    <p>
+                        Intégration d'architectures hybrides et cloud
+                        sécurisées. Configuration SD-WAN et gestion de la QoS.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <h3>Maintenance & MCO</h3>
+                    <p>
+                        Supervision proactive, mises à jour critiques des
+                        firmwares, support technique réactif et maintien en
+                        conditions opérationnelles.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="process">
+            <div class="process-grid">
+                <div class="reveal">
+                    <div class="section-label">Comment ça marche</div>
+                    <h2>De A à Z,<br />on s'occupe<br />de tout.</h2>
+                    <div class="process-steps">
+                        <div class="step" data-step="wan">
+                            <span class="step-num">01</span>
+                            <div>
+                                <h3>Audit & analyse</h3>
+                                <p>
+                                    Analyse complète de vos locaux et évaluation
+                                    de vos besoins WAN initiaux.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="step" data-step="fw">
+                            <span class="step-num">02</span>
+                            <div>
+                                <h3>Conception & Sécurité</h3>
+                                <p>
+                                    Modélisation de la topologie réseau et
+                                    définition des règles de filtrage du
+                                    Firewall.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="step" data-step="sw">
+                            <span class="step-num">03</span>
+                            <div>
+                                <h3>Installation & Commutation</h3>
+                                <p>
+                                    Déploiement physique du matériel, brassage
+                                    des switchs et injection des configurations.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="step" data-step="endpoints">
+                            <span class="step-num">04</span>
+                            <div>
+                                <h3>Tests & Alignement VLAN</h3>
+                                <p>
+                                    Validation de la bonne isolation des VLANs
+                                    (Data, WiFi, Mgmt) sur chaque terminal
+                                    utilisateur.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="step" data-step="all">
+                            <span class="step-num">05</span>
+                            <div>
+                                <h3>Suivi & Supervision</h3>
+                                <p>
+                                    Lancement de la surveillance continue pour
+                                    assurer la stabilité globale du lien
+                                    sécurisé.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="process-visual reveal">
+                    <svg
+                        class="topo-svg"
+                        viewBox="0 0 340 340"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                        id="interactive-topo"
+                    >
+                        <defs>
+                            <filter
+                                id="shadow-light"
+                                x="-20%"
+                                y="-20%"
+                                width="140%"
+                                height="140%"
+                            >
+                                <feDropShadow
+                                    dx="0"
+                                    dy="4"
+                                    stdDeviation="8"
+                                    flood-color="#111827"
+                                    flood-opacity="0.06"
+                                />
+                            </filter>
+                        </defs>
+                        <style>
+                            @keyframes pulse-ring {
+                                0% {
+                                    transform: scale(0.95);
+                                    opacity: 0.6;
+                                }
+                                50% {
+                                    opacity: 0.3;
+                                }
+                                100% {
+                                    transform: scale(1.4);
+                                    opacity: 0;
+                                }
+                            }
+                            .pulse-circle {
+                                transform-origin: center;
+                                animation: pulse-ring 4s
+                                    cubic-bezier(0.16, 1, 0.3, 1) infinite;
+                            }
+                            .interactive-line,
+                            .node-group,
+                            .endpoint-circle,
+                            .vlan-badge {
+                                transition:
+                                    opacity 0.3s ease,
+                                    stroke-width 0.3s ease,
+                                    stroke 0.3s ease,
+                                    transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+                            }
+                            .node-group,
+                            .endpoint-item {
+                                cursor: pointer;
+                            }
+                            .node-group:hover {
+                                transform: scale(1.06);
+                                transform-origin: center;
+                            }
+                            .endpoint-item:hover .endpoint-circle {
+                                transform: scale(1.08);
+                                transform-origin: center;
+                            }
+                            .vlan-badge {
+                                cursor: pointer;
+                            }
+                            .vlan-badge:hover {
+                                transform: translateY(-2px);
+                            }
+                            .vlan-dimmed {
+                                opacity: 0.12 !important;
+                            }
+                            .vlan-highlight {
+                                stroke-width: 2.5px !important;
+                                stroke-opacity: 0.9 !important;
+                            }
+                        </style>
+
+                        <g stroke-linecap="round">
+                            <line
+                                id="link-wan-fw"
+                                class="interactive-line"
+                                data-vlan="10,20"
+                                x1="170"
+                                y1="55"
+                                x2="95"
+                                y2="135"
+                                stroke="#1a5fd4"
+                                stroke-width="1.5"
+                                stroke-opacity="0.3"
+                            />
+                            <line
+                                id="link-wan-sw"
+                                class="interactive-line"
+                                data-vlan="10,30"
+                                x1="170"
+                                y1="55"
+                                x2="245"
+                                y2="135"
+                                stroke="#1a5fd4"
+                                stroke-width="1.5"
+                                stroke-opacity="0.3"
+                            />
+                            <line
+                                id="link-fw-pc"
+                                class="interactive-line"
+                                data-vlan="10"
+                                x1="95"
+                                y1="135"
+                                x2="65"
+                                y2="222"
+                                stroke="#1a5fd4"
+                                stroke-width="1.2"
+                                stroke-opacity="0.25"
+                            />
+                            <line
+                                id="link-fw-srv"
+                                class="interactive-line"
+                                data-vlan="20"
+                                x1="95"
+                                y1="135"
+                                x2="145"
+                                y2="222"
+                                stroke="#1a5fd4"
+                                stroke-width="1.2"
+                                stroke-opacity="0.25"
+                            />
+                            <line
+                                id="link-sw-ap"
+                                class="interactive-line"
+                                data-vlan="30"
+                                x1="245"
+                                y1="135"
+                                x2="198"
+                                y2="222"
+                                stroke="#2db85a"
+                                stroke-width="1.2"
+                                stroke-opacity="0.25"
+                            />
+                            <line
+                                id="link-sw-nas"
+                                class="interactive-line"
+                                data-vlan="10"
+                                x1="245"
+                                y1="135"
+                                x2="278"
+                                y2="222"
+                                stroke="#1a5fd4"
+                                stroke-width="1.2"
+                                stroke-opacity="0.25"
+                            />
+                            <line
+                                id="link-trunk"
+                                class="interactive-line"
+                                data-vlan="10,20,30"
+                                x1="95"
+                                y1="135"
+                                x2="245"
+                                y2="135"
+                                stroke="#1a5fd4"
+                                stroke-width="1.2"
+                                stroke-opacity="0.15"
+                                stroke-dasharray="4,4"
+                            />
+                        </g>
+
+                        <g id="packets-group">
+                            <circle id="p-wan-fw" r="2.5" fill="#1a5fd4">
+                                <animateMotion
+                                    dur="2.2s"
+                                    repeatCount="indefinite"
+                                    path="M 170 55 L 95 135"
+                                />
+                            </circle>
+                            <circle id="p-wan-sw" r="2.5" fill="#1a5fd4">
+                                <animateMotion
+                                    dur="2.8s"
+                                    repeatCount="indefinite"
+                                    path="M 170 55 L 245 135"
+                                />
+                            </circle>
+                            <circle id="p-fw-srv" r="2" fill="#1a5fd4">
+                                <animateMotion
+                                    dur="1.8s"
+                                    repeatCount="indefinite"
+                                    path="M 95 135 L 145 222"
+                                />
+                            </circle>
+                            <circle id="p-sw-ap" r="2" fill="#2db85a">
+                                <animateMotion
+                                    dur="2s"
+                                    repeatCount="indefinite"
+                                    path="M 245 135 L 198 222"
+                                />
+                            </circle>
+                        </g>
+
+                        <circle
+                            cx="170"
+                            cy="55"
+                            r="22"
+                            stroke="#1a5fd4"
+                            stroke-width="1"
+                            fill="none"
+                            class="pulse-circle"
+                        />
+                        <circle
+                            cx="95"
+                            cy="135"
+                            r="17"
+                            stroke="#1a5fd4"
+                            stroke-width="1"
+                            fill="none"
+                            class="pulse-circle"
+                            style="animation-delay: 1.3s"
+                        />
+
+                        <g
+                            id="node-wan"
+                            class="node-group"
+                            data-node="wan-fw,wan-sw"
+                            filter="url(#shadow-light)"
+                        >
+                            <circle
+                                cx="170"
+                                cy="55"
+                                r="22"
+                                fill="#e8f0fb"
+                                stroke="#1a5fd4"
+                                stroke-width="2"
+                            />
+                            <text
+                                x="170"
+                                y="55"
+                                text-anchor="middle"
+                                dominant-baseline="central"
+                                fill="#1a5fd4"
+                                font-size="8.5"
+                                font-family="Space Grotesk, sans-serif"
+                                font-weight="700"
+                                letter-spacing="0.03em"
+                            >
+                                WAN
+                            </text>
+                        </g>
+                        <g
+                            id="node-fw"
+                            class="node-group"
+                            data-node="wan-fw,fw-pc,fw-srv,trunk"
+                            filter="url(#shadow-light)"
+                        >
+                            <rect
+                                x="78"
+                                y="118"
+                                width="34"
+                                height="34"
+                                rx="8"
+                                fill="#ffffff"
+                                stroke="#1a5fd4"
+                                stroke-width="2"
+                            />
+                            <text
+                                x="95"
+                                y="135"
+                                text-anchor="middle"
+                                dominant-baseline="central"
+                                fill="#111827"
+                                font-size="9"
+                                font-family="Space Grotesk, sans-serif"
+                                font-weight="700"
+                            >
+                                FW
+                            </text>
+                        </g>
+                        <g
+                            id="node-sw"
+                            class="node-group"
+                            data-node="wan-sw,sw-ap,sw-nas,trunk"
+                            filter="url(#shadow-light)"
+                        >
+                            <rect
+                                x="228"
+                                y="118"
+                                width="34"
+                                height="34"
+                                rx="8"
+                                fill="#ffffff"
+                                stroke="#1a5fd4"
+                                stroke-width="1.5"
+                            />
+                            <text
+                                x="245"
+                                y="135"
+                                text-anchor="middle"
+                                dominant-baseline="central"
+                                fill="#374151"
+                                font-size="9"
+                                font-family="Space Grotesk, sans-serif"
+                                font-weight="700"
+                            >
+                                SW
+                            </text>
+                        </g>
+
+                        <g
+                            class="endpoints-group"
+                            fill="#ffffff"
+                            stroke-width="1.5"
+                            font-family="Inter, sans-serif"
+                            font-weight="600"
+                            font-size="7.5"
+                            filter="url(#shadow-light)"
+                        >
+                            <g
+                                class="endpoint-item"
+                                id="node-pc"
+                                data-node="fw-pc"
+                            >
+                                <circle
+                                    class="endpoint-circle"
+                                    cx="65"
+                                    cy="222"
+                                    r="14"
+                                    stroke="#e5e7eb"
+                                />
+                                <text
+                                    x="65"
+                                    y="222"
+                                    text-anchor="middle"
+                                    dominant-baseline="central"
+                                    fill="#374151"
+                                >
+                                    PC
+                                </text>
+                            </g>
+                            <g
+                                class="endpoint-item"
+                                id="node-srv"
+                                data-node="fw-srv"
+                            >
+                                <circle
+                                    class="endpoint-circle"
+                                    cx="145"
+                                    cy="222"
+                                    r="14"
+                                    stroke="#e5e7eb"
+                                />
+                                <text
+                                    x="145"
+                                    y="222"
+                                    text-anchor="middle"
+                                    dominant-baseline="central"
+                                    fill="#374151"
+                                >
+                                    SRV
+                                </text>
+                            </g>
+                            <g
+                                class="endpoint-item"
+                                id="node-ap"
+                                data-node="sw-ap"
+                            >
+                                <circle
+                                    class="endpoint-circle"
+                                    cx="198"
+                                    cy="222"
+                                    r="14"
+                                    stroke="#2db85a"
+                                />
+                                <text
+                                    x="198"
+                                    y="222"
+                                    text-anchor="middle"
+                                    dominant-baseline="central"
+                                    fill="#229647"
+                                >
+                                    AP
+                                </text>
+                            </g>
+                            <g
+                                class="endpoint-item"
+                                id="node-nas"
+                                data-node="sw-nas"
+                            >
+                                <circle
+                                    class="endpoint-circle"
+                                    cx="278"
+                                    cy="222"
+                                    r="14"
+                                    stroke="#e5e7eb"
+                                />
+                                <text
+                                    x="278"
+                                    y="222"
+                                    text-anchor="middle"
+                                    dominant-baseline="central"
+                                    fill="#374151"
+                                >
+                                    NAS
+                                </text>
+                            </g>
+                        </g>
+
+                        <g
+                            font-family="Space Grotesk, sans-serif"
+                            font-weight="600"
+                            font-size="7"
+                            text-anchor="middle"
+                        >
+                            <g class="vlan-badge" data-vlan-id="20">
+                                <rect
+                                    x="30"
+                                    y="260"
+                                    width="60"
+                                    height="18"
+                                    rx="5"
+                                    fill="#ffffff"
+                                    stroke="#e5e7eb"
+                                    stroke-width="1"
+                                    filter="url(#shadow-light)"
+                                />
+                                <text x="60" y="271" fill="#6b7280">
+                                    VLAN 20
+                                </text>
+                            </g>
+                            <g class="vlan-badge" data-vlan-id="10">
+                                <rect
+                                    x="100"
+                                    y="260"
+                                    width="74"
+                                    height="18"
+                                    rx="5"
+                                    fill="#e8f0fb"
+                                    stroke="rgba(26,95,212,0.3)"
+                                    stroke-width="1"
+                                />
+                                <text x="137" y="271" fill="#1a5fd4">
+                                    VLAN 10
+                                </text>
+                            </g>
+                            <g class="vlan-badge" data-vlan-id="30">
+                                <rect
+                                    x="218"
+                                    y="260"
+                                    width="74"
+                                    height="18"
+                                    rx="5"
+                                    fill="#e6f7ec"
+                                    stroke="rgba(45,184,90,0.3)"
+                                    stroke-width="1"
+                                />
+                                <text x="255" y="271" fill="#229647">
+                                    VLAN 30
+                                </text>
+                            </g>
+                        </g>
+                        <text
+                            x="170"
+                            y="93"
+                            text-anchor="middle"
+                            fill="#6b7280"
+                            font-size="7.5"
+                            font-family="Space Grotesk, sans-serif"
+                            font-weight="600"
+                            letter-spacing="0.06em"
+                        >
+                            SECURE LINK
+                        </text>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="about-grid">
+                <div class="stats-block reveal">
+                    <div class="stat-box">
+                        <div class="big">5<em>+</em></div>
+                        <div class="label">Clients satisfaits</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="big">4<em>ans</em></div>
+                        <div class="label">D'expérience terrain</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="big">99.9<em>%</em></div>
+                        <div class="label">Uptime SLA</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="big">4<em>h</em></div>
+                        <div class="label">GTR maximum</div>
+                    </div>
+                </div>
+
+                <div class="about-text reveal">
+                    <div class="section-label">Qui on est</div>
+                    <h2>Des techniciens réseau, pas des commerciaux.</h2>
+                    <p class="section-intro">
+                        MosaIT est née d'une passion pour le sysadmin et
+                        l'ingénierie réseau en Belgique. Nous parlons le même
+                        langage que vos équipes techniques : du routage à la
+                        segmentation VLAN stricte en passant par la VoIP et le
+                        durcissement de firewalls. Pas de blabla commercial,
+                        uniquement des infrastructures documentées, stables et
+                        taillées pour la performance.
+                    </p>
+                    <div class="about-badges">
+                        <span class="badge">Certifié Cisco</span>
+                        <span class="badge">Fortinet NSE</span>
+                        <span class="badge">Wi-Fi Professionnel</span>
+                        <span class="badge">Routage & VLANs</span>
+                        <span class="badge">Sécurité Périmétrique</span>
+                        <span class="badge">Audit NIS-2 Compliant</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cta">
+            <div class="section-label reveal">Parlons de votre projet</div>
+            <h2 class="reveal">Prêt à connecter<br />votre entreprise ?</h2>
+            <p class="reveal">
+                Un réseau fiable et segmenté est le pilier central de votre
+                productivité et de votre sécurité informatique.
+            </p>
+            <div class="cta-btns reveal">
+                <a href="mailto:contact@mosait.be" class="btn-cta-white"
+                    >Envoyer un message →</a
+                >
+                <a href="tel:+32473389723" class="btn-cta-green"
+                    >Nous appeler</a
+                >
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer-left">
+                <div class="footer-logo">MOSA<span>IT</span></div>
+                <div class="footer-tagline">
+                    CONNECTE LE PRÉSENT — SÉCURISE LE FUTUR
+                </div>
+            </div>
+            <p>© 2026 MosaIT — Tous droits réservés · Belgique</p>
+            <div class="footer-links">
+                <a href="#services">Services</a>
+                <a href="#process">Processus</a>
+                <a href="#about">À propos</a>
+            </div>
+        </footer>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
